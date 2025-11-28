@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const style = document.createElement('style');
 style.textContent = `
     .nav-menu a.active {
-        color: #0066cc;
+        color: #06a77d;
     }
 `;
 document.head.appendChild(style);

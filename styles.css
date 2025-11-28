@@ -12,8 +12,8 @@ html {
 body {
     font-family: 'Noto Sans SC', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #fff;
+    color: #2d3436;
+    background-color: #fafbfc;
 }
 
 .container {
@@ -26,10 +26,10 @@ body {
 .navbar {
     position: sticky;
     top: 0;
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
+    background-color: rgba(250, 251, 252, 0.95);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
 }
 
 .nav-content {
@@ -48,7 +48,7 @@ body {
 }
 
 .logo a:hover {
-    color: #0066cc;
+    color: #06a77d;
 }
 
 .nav-menu {
@@ -66,7 +66,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #0066cc;
+    color: #06a77d;
 }
 
 .nav-menu a::after {
@@ -76,7 +76,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #0066cc;
+    background-color: #06a77d;
     transition: width 0.3s ease;
 }
 
@@ -102,7 +102,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #fafbfc 0%, #e8f5f1 100%);
     text-align: center;
     padding: 2rem 0;
 }
@@ -152,20 +152,20 @@ body {
 }
 
 .btn-primary {
-    background-color: #0066cc;
+    background-color: #06a77d;
     color: #fff;
 }
 
 .btn-primary:hover {
-    background-color: #0052a3;
+    background-color: #048560;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+    box-shadow: 0 4px 12px rgba(6, 167, 125, 0.3);
 }
 
 .btn-secondary {
     background-color: #fff;
-    color: #0066cc;
-    border: 2px solid #0066cc;
+    color: #06a77d;
+    border: 2px solid #06a77d;
 }
 
 .btn-secondary:hover {
@@ -205,7 +205,7 @@ body {
 /* 关于部分 */
 .about {
     padding: 4rem 0;
-    background-color: #f9f9f9;
+    background-color: #fafbfc;
 }
 
 .about-content {
@@ -238,8 +238,8 @@ body {
 
 .tag {
     display: inline-block;
-    background-color: #e8f0ff;
-    color: #0066cc;
+    background-color: #e8f5f1;
+    color: #06a77d;
     padding: 0.4rem 0.8rem;
     border-radius: 20px;
     font-size: 0.9rem;
@@ -268,7 +268,7 @@ body {
 }
 
 .blog-card:hover {
-    border-color: #0066cc;
+    border-color: #06a77d;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     transform: translateY(-4px);
 }
@@ -301,20 +301,20 @@ body {
 }
 
 .read-more {
-    color: #0066cc;
+    color: #06a77d;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .read-more:hover {
-    color: #0052a3;
+    color: #048560;
 }
 
 /* 项目部分 */
 .projects {
     padding: 4rem 0;
-    background-color: #f9f9f9;
+    background-color: #fafbfc;
 }
 
 .projects-grid {
@@ -332,7 +332,7 @@ body {
 }
 
 .project-card:hover {
-    border-color: #0066cc;
+    border-color: #06a77d;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     transform: translateY(-4px);
 }
@@ -357,14 +357,14 @@ body {
 }
 
 .project-link {
-    color: #0066cc;
+    color: #06a77d;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .project-link:hover {
-    color: #0052a3;
+    color: #048560;
 }
 
 /* 联系部分 */
@@ -412,7 +412,7 @@ body {
 }
 
 .contact-link:hover {
-    color: #0066cc;
+    color: #06a77d;
     transform: translateY(-4px);
 }
 
